@@ -1,0 +1,34 @@
+
+.background{
+  fill:blue;
+}
+
+.clock{
+  font-family: Seville-Bold;
+  fill: black;
+  font-size: 50;
+  text-anchor: middle;
+  text-length: 64;
+  x: 50%;
+  y: 45%;
+}
+
+.date{
+  font-family: Seville-Bold;
+  fill: black;
+  font-size: 25;
+  text-anchor: middle;
+  text-length: 64;
+  x: 50%;
+  y: 55%;
+}
+
+.battery {
+  font-family: Seville-Regular;
+  fill: black;
+  text-anchor: start;
+  text-length: 64;
+  font-size: 15;
+  x: 5;
+  y: 22;
+}

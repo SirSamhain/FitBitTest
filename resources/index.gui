@@ -1,0 +1,42 @@
+<svg viewport-fill="lightblue">
+
+  <!-- <rect width="100%" height="10%" x="0" y="0" class="background"/> -->
+  <!-- <text id="accel-label" class="sensor-label">accelerometer</text>
+  <text id="accel-data" class="sensor-data">{ ... }</text> -->
+  
+  <!-- <text id="bar-label" class="sensor-label" y="20">barometer</text>
+  <text id="bar-data" class="sensor-data" y="25">{ ... }</text> -->
+  
+  <!-- <text id="bps-label" class="sensor-label">body-presence</text>
+  <text id="bps-data" class="sensor-data">{ ... }</text> -->
+  
+  <!-- <text id="gyro-label" class="sensor-label">gyroscope</text>
+  <text id="gyro-data" class="sensor-data">{ ... }</text> -->
+  
+  <!-- <text id="orientation-label" class="sensor-label">orientation</text>
+  <text id="orientation-data" class="sensor-data">{ ... }</text> -->
+
+  <text id="clock-data" class="clock">{ ... }</text>
+  <text id="date-data" class="date">{ ... }</text>
+  
+  <text id="hrm-data" class="battery" x="8" y="255">{ ... }</text>
+  
+  <arc x="2" y="2" width="30" height="30" fill="red" arc-width="2" start-angle="360" sweep-angle="0" id="batteryIndicator"/>
+  <text id="battery-data" class="battery">{ ... }</text>
+
+  <text id="steps-data" class="battery" x="35" y="287">{ ... }</text>
+  <arc x="2" y="268" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
+  <image href="icons/footprint.png" width="19" height="19" x="7" y="274"/>
+
+  <text id="calories-data" class="battery" x="115" y="287">{ ... }</text>
+  <arc x="82" y="268" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
+  <image href="icons/fire.png" width="19" height="19" x="87" y="274"/>
+  
+  <text id="distance-data" class="battery" x="115" y="255">{ ... }</text>
+  <arc x="82" y="235" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
+  <image href="icons/gps.png" width="19" height="19" x="87" y="241"/>
+  
+ 
+  
+  <!-- <image href="icons/stat_steps_solid_24px.png" width="24" height="24" x="0" y="0"/> -->
+</svg>

@@ -1,0 +1,37 @@
+{
+  "fitbit": {
+    "appUUID": "91745c28-d89e-43a7-99d0-2d074eb76c7a",
+    "appType": "clockface",
+    "appDisplayName": "WatchFace001",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet",
+      "access_location",
+      "run_background"
+    ],
+    "buildTargets": [
+      "gemini",
+      "meson",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "WatchFace001"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.1",
+    "axios": "^0.19.2"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
