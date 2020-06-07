@@ -1,4 +1,4 @@
-<svg viewport-fill="lightblue">
+<svg viewport-fill="#78758a">
 
   <!-- <rect width="100%" height="10%" x="0" y="0" class="background"/> -->
   <!-- <text id="accel-label" class="sensor-label">accelerometer</text>
@@ -15,14 +15,18 @@
   
   <!-- <text id="orientation-label" class="sensor-label">orientation</text>
   <text id="orientation-data" class="sensor-data">{ ... }</text> -->
+  
+  <arc x="2" y="2" width="30" height="30" fill="red" arc-width="2" start-angle="360" sweep-angle="0" id="batteryIndicator"/>
+  <text id="battery-data" class="battery">{ ... }</text>
+
+  <text id="weather-icon" class="clock" x="22%" y="20%" font-size="50">{ ... }</text>
+  <text id="weather-temp" class="clock" x="50%" y="14%" font-size="20">{ ... }</text>
+  <text id="weather-location" class="clock" x="50%" y="20%" font-size="20">{ ... }</text>
 
   <text id="clock-data" class="clock">{ ... }</text>
   <text id="date-data" class="date">{ ... }</text>
   
   <text id="hrm-data" class="battery" x="8" y="255">{ ... }</text>
-  
-  <arc x="2" y="2" width="30" height="30" fill="red" arc-width="2" start-angle="360" sweep-angle="0" id="batteryIndicator"/>
-  <text id="battery-data" class="battery">{ ... }</text>
 
   <text id="steps-data" class="battery" x="35" y="287">{ ... }</text>
   <arc x="2" y="268" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>

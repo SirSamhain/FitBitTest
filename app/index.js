@@ -18,7 +18,7 @@ caloriesInfo();
 batteryInfo();
 heartInfo(sensors);
 clockInfo();
-// weatherInfo();
+weatherInfo();
 // gyroInfo(sensors);
 // accelerometerInfo(sensors);
 // barometerInfo(sensors);
@@ -26,8 +26,8 @@ clockInfo();
 // orientationInfo(sensors);
 
 display.addEventListener("change", () => {
-  // Automatically stop all sensors when the screen is off to conserve battery
-  display.on ? sensors.map(sensor => sensor.start()) : sensors.map(sensor => sensor.stop());
+    // Automatically stop all sensors when the screen is off to conserve battery
+    display.on ? sensors.map(sensor => sensor.start()) : sensors.map(sensor => sensor.stop());
 });
 
 console.log(sensors);
