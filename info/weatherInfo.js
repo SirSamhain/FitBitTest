@@ -6,10 +6,10 @@ const weatherLocation = document.getElementById("weather-location");
 const weatherTemp = document.getElementById("weather-temp");
 
 export function weatherInfo() {
-    weatherIcon.text = getIcon("02d");
+    weatherIcon.href = "icons/02d.png";
     peerSocket.onmessage = (evt) => {
         let weatherMessage = evt.data;
-        weatherIcon.text = getIcon(weatherMessage.icon);
+        weatherIcon.href = `icons/${weatherMessage.icon}.png`;
         weatherLocation.text = weatherMessage.location;
         weatherTemp.text = `${weatherMessage.temp}°C`;
     }

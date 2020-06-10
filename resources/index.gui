@@ -19,26 +19,26 @@
   <arc x="2" y="2" width="30" height="30" fill="red" arc-width="2" start-angle="360" sweep-angle="0" id="batteryIndicator"/>
   <text id="battery-data" class="battery">{ ... }</text>
 
-  <text id="weather-icon" class="clock" x="22%" y="20%" font-size="50">{ ... }</text>
-  <text id="weather-temp" class="clock" x="50%" y="14%" font-size="20">{ ... }</text>
-  <text id="weather-location" class="clock" x="50%" y="20%" font-size="20">{ ... }</text>
+  <image href="icons/footprint.png" width="80" height="80" x="20%" y="2%" id="weather-icon"/>
+  <text id="weather-temp" class="clock" x="60%" y="14%" font-size="20">Loading...</text>
+  <text id="weather-location" class="clock" x="60%" y="20%" font-size="20">Loading...</text>
 
   <text id="clock-data" class="clock">{ ... }</text>
   <text id="date-data" class="date">{ ... }</text>
   
-  <text id="hrm-data" class="battery" x="8" y="255">{ ... }</text>
+  <text id="hrm-data" class="battery" x="35" y="238" font-size="20">{ ... }</text>
 
-  <text id="steps-data" class="battery" x="35" y="287">{ ... }</text>
-  <arc x="2" y="268" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
-  <image href="icons/footprint.png" width="19" height="19" x="7" y="274"/>
+  <text id="steps-data" class="battery" x="53" y="285" font-size="20">{ ... }</text>
+  <arc x="10" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
+  <image href="icons/footprint.png" width="29" height="29" x="15" y="264"/>
 
-  <text id="calories-data" class="battery" x="115" y="287">{ ... }</text>
-  <arc x="82" y="268" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
-  <image href="icons/fire.png" width="19" height="19" x="87" y="274"/>
+  <text id="calories-data" class="battery" x="155" y="285" font-size="20">{ ... }</text>
+  <arc x="110" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
+  <image href="icons/fire.png" width="29" height="29" x="115" y="264"/>
   
-  <text id="distance-data" class="battery" x="115" y="255">{ ... }</text>
-  <arc x="82" y="235" width="30" height="30" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
-  <image href="icons/gps.png" width="19" height="19" x="87" y="241"/>
+  <text id="distance-data" class="battery" x="155" y="241" font-size="20">{ ... }</text>
+  <arc x="110" y="215" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
+  <image href="icons/gps.png" width="29" height="29" x="115" y="221"/>
   
  
   
