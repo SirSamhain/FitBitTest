@@ -1,4 +1,28 @@
 <svg viewport-fill="#78758a">
+  <!-- BATTERY INDIDCATOR -->
+  <arc x="2" y="2" width="30" height="30" fill="red" arc-width="2" start-angle="360" sweep-angle="0" id="batteryIndicator"/>
+  <text id="battery-data" class="battery">{ ... }</text>
+  <!-- WEATHER API -->
+  <image href="icons/footprint.png" width="80" height="80" x="20%" y="2%" id="weather-icon"/>
+  <text id="weather-temp" class="clock" x="60%" y="14%" font-size="20">Loading...</text>
+  <text id="weather-location" class="clock" x="60%" y="20%" font-size="20">Loading...</text>
+  <!-- CLOCK -->
+  <text id="clock-data" class="clock">{ ... }</text>
+  <text id="date-data" class="date">{ ... }</text>
+  <!-- HEART RATE MONITOR -->
+  <text id="hrm-data" class="battery" x="35" y="238" font-size="20">{ ... }</text>
+  <!-- STEPS INFORMATION -->
+  <text id="steps-data" class="battery" x="53" y="285" font-size="20">{ ... }</text>
+  <arc x="10" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
+  <image href="icons/footprint.png" width="29" height="29" x="15" y="264"/>
+  <!-- CALORIES INFORMATION -->
+  <text id="calories-data" class="battery" x="155" y="285" font-size="20">{ ... }</text>
+  <arc x="110" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
+  <image href="icons/fire.png" width="29" height="29" x="115" y="264"/>
+  <!-- DISTANCE INFORMATION -->
+  <text id="distance-data" class="battery" x="155" y="241" font-size="20">{ ... }</text>
+  <arc x="110" y="215" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
+  <image href="icons/gps.png" width="29" height="29" x="115" y="221"/>
 
   <!-- <rect width="100%" height="10%" x="0" y="0" class="background"/> -->
   <!-- <text id="accel-label" class="sensor-label">accelerometer</text>
@@ -15,32 +39,4 @@
   
   <!-- <text id="orientation-label" class="sensor-label">orientation</text>
   <text id="orientation-data" class="sensor-data">{ ... }</text> -->
-  
-  <arc x="2" y="2" width="30" height="30" fill="red" arc-width="2" start-angle="360" sweep-angle="0" id="batteryIndicator"/>
-  <text id="battery-data" class="battery">{ ... }</text>
-
-  <image href="icons/footprint.png" width="80" height="80" x="20%" y="2%" id="weather-icon"/>
-  <text id="weather-temp" class="clock" x="60%" y="14%" font-size="20">Loading...</text>
-  <text id="weather-location" class="clock" x="60%" y="20%" font-size="20">Loading...</text>
-
-  <text id="clock-data" class="clock">{ ... }</text>
-  <text id="date-data" class="date">{ ... }</text>
-  
-  <text id="hrm-data" class="battery" x="35" y="238" font-size="20">{ ... }</text>
-
-  <text id="steps-data" class="battery" x="53" y="285" font-size="20">{ ... }</text>
-  <arc x="10" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
-  <image href="icons/footprint.png" width="29" height="29" x="15" y="264"/>
-
-  <text id="calories-data" class="battery" x="155" y="285" font-size="20">{ ... }</text>
-  <arc x="110" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
-  <image href="icons/fire.png" width="29" height="29" x="115" y="264"/>
-  
-  <text id="distance-data" class="battery" x="155" y="241" font-size="20">{ ... }</text>
-  <arc x="110" y="215" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
-  <image href="icons/gps.png" width="29" height="29" x="115" y="221"/>
-  
- 
-  
-  <!-- <image href="icons/stat_steps_solid_24px.png" width="24" height="24" x="0" y="0"/> -->
 </svg>

@@ -1,6 +1,6 @@
 import { battery } from "power";
 import document from "document";
-import { getTheta } from "../common/utils"
+import { getTheta, getColor } from "../common/utils"
 
 export function batteryInfo(){
 
@@ -17,16 +17,8 @@ export function batteryInfo(){
       batteryData.x = 5;
     }
 
-    if(battery.chargeLevel > 80){
-      colour = "green";
-    }else if(battery.chargeLevel > 50){
-      colour = "yellow";
-    }else{
-      colour = "red";
-    }
-
     batteryCircle.sweepAngle = getTheta(battery.chargeLevel);
-    batteryCircle.fillColor = "green";
+    batteryCircle.fillColor = getColor(getTheta(battery.chargeLevel));
 
   }
   

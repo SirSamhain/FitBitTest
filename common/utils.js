@@ -9,3 +9,13 @@ export function zeroPad(i) {
 export function getTheta(n){
   return (n/100) * 360;
 }
+
+export function getColor( theta ){
+  if(theta > (360 * .80)){
+    colour = "green";
+  }else if(theta > (360 * .50)){
+    colour = "yellow";
+  }else{
+    colour = "red";
+  }
+}
