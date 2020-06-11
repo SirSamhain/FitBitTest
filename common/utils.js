@@ -12,10 +12,10 @@ export function getTheta(n){
 
 export function getColor( theta ){
   if(theta > (360 * .80)){
-    colour = "green";
+    return "#17fc03";
   }else if(theta > (360 * .50)){
-    colour = "yellow";
+    return "yellow";
   }else{
-    colour = "red";
+    return "red";
   }
 }

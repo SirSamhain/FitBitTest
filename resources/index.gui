@@ -13,15 +13,15 @@
   <text id="hrm-data" class="battery" x="35" y="238" font-size="20">{ ... }</text>
   <!-- STEPS INFORMATION -->
   <text id="steps-data" class="battery" x="53" y="285" font-size="20">{ ... }</text>
-  <arc x="10" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
+  <arc x="10" y="258" width="40" height="40" fill="red" arc-width="3" start-angle="0" sweep-angle="360" id="stepsIndicator"/>
   <image href="icons/footprint.png" width="29" height="29" x="15" y="264"/>
   <!-- CALORIES INFORMATION -->
   <text id="calories-data" class="battery" x="155" y="285" font-size="20">{ ... }</text>
-  <arc x="110" y="258" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
+  <arc x="110" y="258" width="40" height="40" fill="red" arc-width="3" start-angle="0" sweep-angle="360" id="caloriesIndicator"/>
   <image href="icons/fire.png" width="29" height="29" x="115" y="264"/>
   <!-- DISTANCE INFORMATION -->
   <text id="distance-data" class="battery" x="155" y="241" font-size="20">{ ... }</text>
-  <arc x="110" y="215" width="40" height="40" fill="red" arc-width="2" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
+  <arc x="110" y="215" width="40" height="40" fill="red" arc-width="3" start-angle="0" sweep-angle="360" id="distanceIndicator"/>
   <image href="icons/gps.png" width="29" height="29" x="115" y="221"/>
 
   <!-- <rect width="100%" height="10%" x="0" y="0" class="background"/> -->

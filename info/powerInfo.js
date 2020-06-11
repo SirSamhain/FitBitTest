@@ -6,9 +6,13 @@ export function batteryInfo(){
 
   const batteryData = document.getElementById("battery-data");
   const batteryCircle = document.getElementById("batteryIndicator");
-  const colour = "green";
+  setInfo();
 
   battery.onchange = (evt) => {
+    setInfo();
+  };
+
+  function setInfo(){
 
     batteryData.text = battery.chargeLevel;
     if(battery.chargeLevel < 100){
@@ -17,9 +21,10 @@ export function batteryInfo(){
       batteryData.x = 5;
     }
 
-    batteryCircle.sweepAngle = getTheta(battery.chargeLevel);
-    batteryCircle.fillColor = getColor(getTheta(battery.chargeLevel));
+    batteryCircle.sweepAngle = getTheta( battery.chargeLevel );
+    batteryCircle.style.fill = getColor( getTheta(battery.chargeLevel) );
 
   }
   
 }
+

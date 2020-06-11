@@ -5,7 +5,8 @@ import { WeatherMessage } from "../common/WeatherMessage"
 
 const key = "9fb533752c482e6a8678bd66d62943e2";
 const time = 3600000;
-const options = {}
+const options = {};
+let retries = 0;
 
 weatherInfo();
 
@@ -43,4 +44,9 @@ function processData(data) {
 
 function processError(error) {
     console.error(error.message);
+    if(retries < 3){
+        weather();
+        retries++;
+    }
+    retries = 0;
 }

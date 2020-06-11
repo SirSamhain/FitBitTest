@@ -1,6 +1,7 @@
 
 import document from "document";
 import { goals, today } from "user-activity";
+import { getColor } from "../common/utils"
 
 export function stepsInfo(){
 
@@ -13,6 +14,7 @@ export function stepsInfo(){
 
   stepsData.text = steps;
   stepsIndicator.sweepAngle = theta;
+  stepsIndicator.style.fill = getColor(theta);
 
 }
 
@@ -27,6 +29,7 @@ export function caloriesInfo(){
   
   caloriesData.text = calories;
   caloriesIndicator.sweepAngle = theta;
+  caloriesIndicator.style.fill = getColor(theta);
 
 }
 
@@ -41,6 +44,7 @@ export function distanceInfo(){
   theta = miles > milesGoal ? 360 : (miles/milesGoal)*360;
   distanceData.text = (Math.round(miles * 100) / 100) + "mi";
   distanceIndicator.sweepAngle = theta;
+  distanceIndicator.style.fill = getColor(theta);
 
 }
 
