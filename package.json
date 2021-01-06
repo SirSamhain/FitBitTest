@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@fitbit/sdk-cli": "^1.7.1",
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "scripts": {
     "build": "fitbit-build"
